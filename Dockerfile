@@ -1,4 +1,4 @@
-FROM circleci/golang:1.12
+FROM circleci/golang:1.17
 
 RUN curl -L https://convox.com/cli/linux/convox -o /tmp/convox && \
       sudo mv /tmp/convox /usr/local/bin/convox && \
